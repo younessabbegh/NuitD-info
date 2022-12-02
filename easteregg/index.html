@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="shortcut icon" type="image" href="img/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  .contact {
+    padding: 15rem 10rem;
+    width: 100%;
+    background-image: url("img/whitebb2.jpeg");
+    background-size: cover;
+  }
+
+  .contact-content {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.9);
+  }
+</style>
+
+<body>
+  <section class="header" id="home">
+    <nav class="navbar">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <label class="logo"><a href="#home">Restaurant Website</a></label>
+
+      <ul class="navbar-list">
+        <li>
+          <a href="#home" class="navbar-link">Home</a>
+        </li>
+        <li>
+          <a href="#menu" class="navbar-link">Menu</a>
+        </li>
+        <li>
+          <a href="#contact" class="navbar-link">Contact</a>
+        </li>
+        <li>
+          <a href="page2.html" class="navbar-link-book">ORDER NOW</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <div class="header-container">
+      <div class="video">
+        <video loop muted autoplay id="video">
+          <source src="img/video.mp4" type="video/mp4">
+
+        </video>
+      </div>
+      <div class="header-box">
+        <h1 class="heading-primary">
+          Best <br> <span id="restaurant">Restaurant</span> <br> in town
+        </h1><br>
+        <p>Dear guests, you are welcomed to our restaurant. We greatly appreciate your choice of dining with us
+          and we promise to serve you with our excellence. Welcome and have a fine dining experience.</p>
+
+        <a href="#menu" class="book-now">Take a look to our Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="container-fluid">
+      <div class="menu-heading">Menu</div>
+      <div class="row">
+
+        <div class="col-md-3">
+          <div class="menu-container">
+            <div class="menu-img">
+              &nbsp;
+            </div>
+            <h1 class="menu-title">1 Pizza:</h1>
+            <ul class="menu-p">
+              <li>Chicken</li>
+              <li>Cheese</li>
+              <li>Garden Special</li>
+              <li>Marinera</li>
+              <li>Pepperoni</li>
+            </ul>
+            <h3 class="price">12Dt</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="menu-container">
+            <div class="menu-img1">
+              &nbsp;
+            </div>
+            <h1 class="menu-title">2 Lasagna:</h1>
+            <ul class="menu-p">
+              <li>Bolognaise</li>
+              <li>Fruits de Mer</li>
+            </ul>
+            <h3 class="price">15DT</h3>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="menu-container">
+            <div class="menu-img2">
+              &nbsp;
+            </div>
+            <h1 class="menu-title">3 Pasta:</h1>
+            <ul class="menu-p">
+              <li>Chicken</li>
+              <li>Viande hachee</li>
+            </ul>
+            <h3 class="price">8DT</h3>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="menu-container">
+            <div class="menu-img3">
+              &nbsp;
+            </div>
+            <h1 class="menu-title">4 Sushi:</h1>
+            <ul class="menu-p">
+              <li>Nigiri</li>
+              <li> Sashimi</li>
+              <li>Maki</li>
+              <li>Uramaki</li>
+            </ul>
+            <h3 class="price">20DT</h3>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="menu-container">
+            <div class="menu-img4">
+              &nbsp;
+            </div>
+            <h1 class="menu-title">5 Soup:</h1>
+            <ul class="menu-p">
+              <li>Chicken</li>
+              <li>Fish</li>
+            </ul>
+            <h3 class="price">5DT</h3>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="menu-container">
+            <div class="menu-img5">
+              &nbsp;
+            </div>
+            <h1 class="menu-title">6 Tacos:</h1>
+            <ul class="menu-p">
+              <li>Cordon Blue</li>
+              <li>Escalope Grillee</li>
+              <li>Escaloppe panee</li>
+              <li>Viande hachee</li>
+              <li>Chawarma</li>
+            </ul>
+            <h3 class="price">7DT</h3>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="menu-container">
+            <div class="menu-img6">
+              &nbsp;
+            </div>
+            <h1 class="menu-title">7 Cheeseburger:</h1>
+            <ul class="menu-p">
+              <li>steak</li>
+              <li>cheese</li>
+              <li>letus</li>
+              <li>tomatos</li>
+              <li>onion</li>
+            </ul>
+            <h3 class="price">13DT</h3>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="menu-container">
+            <div class="menu-img7">
+              &nbsp;
+            </div>
+
+            
+
+            <h1 class="menu-title">8 Fresh Drinks:</h1>
+            <img id="myImg" src="img/halal.jpg" alt="drink water" width="900" height="10000">
+            <ul class="menu-p">
+              <li>Coka Cola</li>
+              <li>Fanta</li>
+              <li>Boga</li>
+              <li>Sprite</li>
+              <li>Shark/Redbull</li>
+            </ul>
+            <h3 class="price">3DT</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+<div id="myModal" class="modal">
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+  <section class="counters">
+    <div class="container">
+      <div>
+        <i class="fab fa-youtube fa-4x"></i>
+        <div class="counter" data-target="1564">0</div>
+        <h3>Subscribers</h3>
+      </div>
+      <div>
+        <i class="fab fa-twitter fa-4x"></i>
+        <div class="counter" data-target="1200">0</div>
+        <h3>Followers</h3>
+      </div>
+      <div>
+        <i class="fab fa-facebook fa-4x"></i>
+        <div class="counter" data-target="69"></div>
+        <div class="popup" onclick="myFunction()">Likes
+          <span class="popuptext" id="myPopup"> hahaha you got trolled</span>
+        </div>
+        <h3></h3>
+      </div>
+      <div>
+        <i class="fab fa-linkedin fa-4x"></i>
+        <div class="counter" data-target="500">0</div>
+        <h3>Connections</h3>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="contact-content">
+      <div class="middle">
+        <span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/food2.png" alt="" class="middle-img img-fluid"></a></span>
+
+        <div class="contact-form">
+          <form class="form">
+            <h1 class="contact-heading">Contact Us</h1>
+            <div class="form-group">
+              <input type="text" class="input" id="name" placeholder="Name..." required>
+              <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" class="input" id="email" placeholder="Email..." required>
+              <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+              <textarea Type="text" class="input textarea" placeholder="message...." required></textarea>
+              <label for="">Message</label>
+            </div>
+            <button type="button" class="btn contact-btn" data-bs-toggle="modal" data-bs-target="#myModal"
+              style="font-size: 300%;">
+              Submit
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Done</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    Thanks for submitting ♥
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="review">
+    <h1 class="review-heading">How do our visitors rate us? </h1>
+    <div class="review-content">
+      <div class="review1">
+        <table class="table table-hover">
+          <tr class="table-warning">
+            <td>
+              <div class="review-logo">
+                &nbsp;
+              </div>
+            </td>
+            <td>
+              <h1>Kais sabbegh</h1>
+              <h1>3 Days Ago</h1>
+            </td>
+            <td>
+              <div class="review-box">
+                <div class="review-star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="review-text"><br>
+                  Very good restaurant! My favorite ♥
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr class="table-warning">
+            <td>
+              <div class="review-logo">
+                &nbsp;
+              </div>
+            </td>
+            <td>
+              <h1>Anwer Romadhani</h1>
+              <h1>2 Days Ago</h1>
+            </td>
+            <td>
+              <div class="review-box">
+                <div class="review-star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="review-text"><br>
+                  a very pleasurable experience.
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr class="table-warning">
+            <td>
+              <div class="review-logo">
+                &nbsp;
+              </div>
+            </td>
+            <td>
+              <h1>Wissem Bouaziz</h1>
+              <h1>2 Days Ago</h1>
+            </td>
+            <td>
+              <div class="review-box">
+                <div class="review-star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                <div class="review-text"><br>
+                  I recommend this Restaurant ♥ ♥
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr class="table-warning">
+            <td>
+              <div class="review-logo">
+                &nbsp;
+              </div>
+            </td>
+            <td>
+              <h1>sexy007</h1>
+              <h1>1 Day Ago</h1>
+            </td>
+            <td>
+              <div class="review-box">
+                <div class="review-star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="review-text"><br>
+                  the food tastes better than my gf's cochie ♥
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+  </section>
+
+  
+  <!-- footer-->
+  <section class="footer">
+    <div class="social">
+      <a href="https://instagram.com" target="-blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com" target="-blank"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Terms</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+    </ul>
+    <p class="copyright">
+      While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+      Copyright 1999-2022. All Rights Reserved.
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
